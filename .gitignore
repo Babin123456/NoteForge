@@ -1,0 +1,32 @@
+# Python virtual environment
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local data & uploads & database files
+backend/data/uploads/*
+!backend/data/uploads/.gitkeep
+backend/data/db/*
+!backend/data/db/.gitkeep
+
+# Environment variables
+.env
+.env.local
+
+# Node modules & build
+node_modules/
+dist/
+dist-ssr/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
